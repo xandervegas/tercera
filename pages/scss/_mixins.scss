@@ -1,0 +1,14 @@
+// _mixins.scss
+@mixin border-radius($radius) {
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+  }
+  
+  @mixin transition($property, $duration) {
+    transition: $property $duration;
+    -webkit-transition: $property $duration;
+    -moz-transition: $property $duration;
+    -o-transition: $property $duration;
+  }
+  
